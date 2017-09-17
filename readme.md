@@ -1,0 +1,1 @@
+This file will copy the file data byte by byte from File A to File B and the size doubles from 1KB to 2 MB.
