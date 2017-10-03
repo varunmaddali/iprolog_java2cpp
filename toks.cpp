@@ -1,5 +1,6 @@
 <#include iostream>
 
+//try to display tokens also
 /**
  * Reads chars from char streams using the current default encoding
  */
