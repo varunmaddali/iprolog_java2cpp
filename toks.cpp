@@ -55,6 +55,7 @@ public class Toks extends StreamTokenizer {
     int c = TT_EOF;
     try {
       c = nextToken();
+      count++;
       while (Character.isWhitespace(c) && c != TT_EOF) {
         c = nextToken();
       }
@@ -129,6 +130,7 @@ public class Toks extends StreamTokenizer {
       } else {
         Ws.add(t);
       }
+      cout<<ws;
     }
     return Wsss;
   }
@@ -138,6 +140,8 @@ public class Toks extends StreamTokenizer {
   }
 
   void main(final String[] args) {
+    int count=0;
     Main.pp(toSentences("prog.nl", true));
+    cout<<"the number of tokens:"<<count;
   }
 }
