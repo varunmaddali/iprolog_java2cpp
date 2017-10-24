@@ -1,4 +1,3 @@
-//.h file code:
 
 #include <vector>
 
