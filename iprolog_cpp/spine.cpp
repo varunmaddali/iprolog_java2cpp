@@ -1,24 +1,9 @@
-//.h file code:
-
 #include <vector>
 
 namespace iProlog
 {
-	/// <summary>
-	/// runtime representation of an immutable list of goals
-	/// together with top of heap and trail pointers
-	/// and current clause tried out by head goal
-	/// as well as registers associated to it
-	/// 
-	/// note that parts of this immutable lists
-	/// are shared among alternative branches
-	/// </summary>
 	class Spine
 	{
-
-	  /// <summary>
-	  /// creates a spine - as a snapshot of some runtime elements
-	  /// </summary>
   public:
 	  virtual ~Spine()
 	  {
@@ -26,10 +11,6 @@ namespace iProlog
 	  }
 
 	  Spine(std::vector<int> &gs0, int const base, IntList *const gs, int const ttop, int const k, std::vector<int> &cs);
-
-	  /// <summary>
-	  /// creates a specialized spine returning an answer (with no goals left to solve)
-	  /// </summary>
 	  Spine(int const hd, int const ttop);
 
 	  const int hd; // head of the clause to which this corresponds
