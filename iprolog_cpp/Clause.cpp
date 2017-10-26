@@ -1,12 +1,7 @@
-//.h file code:
-
 #include <vector>
 
 namespace iProlog
 {
-	/// <summary>
-	/// representation of a clause
-	/// </summary>
 	class Clause
 	{
   public:
@@ -19,8 +14,6 @@ namespace iProlog
 	  std::vector<int> const xs;
 	};
 }
-
-//.cpp file code:
 
 namespace iProlog
 {
