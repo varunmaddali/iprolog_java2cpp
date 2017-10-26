@@ -13,20 +13,19 @@ namespace iProlog
 	  Spine(std::vector<int> &gs0, int const base, IntList *const gs, int const ttop, int const k, std::vector<int> &cs);
 	  Spine(int const hd, int const ttop);
 
-	  const int hd; // head of the clause to which this corresponds
-	  const int base; // top of the heap when this was created
+	  const int hd; 
+	  const int base; 
 
-	  IntList *const gs; // goals - with the top one ready to unfold
-	  const int ttop; // top of the trail when this was created
+	  IntList *const gs; 
+	  const int ttop; 
 
 	  int k = 0;
 
-	  std::vector<int> xs; // index elements
-	  std::vector<int> cs; // array of  clauses known to be unifiable with top goal in gs
+	  std::vector<int> xs; 
+	  std::vector<int> cs; 
 	};
 }
 
-//.cpp file code:
 
 namespace iProlog
 {
