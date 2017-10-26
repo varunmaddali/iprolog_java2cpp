@@ -1,5 +1,3 @@
-//.h file code:
-
 #include <string>
 #include <vector>
 
@@ -9,9 +7,7 @@ namespace iProlog
 	{
 
   private:
-//JAVA TO C++ CONVERTER NOTE: Fields cannot have the same name as methods:
 	  const int head_Renamed;
-//JAVA TO C++ CONVERTER NOTE: Fields cannot have the same name as methods:
 	  IntList *const tail_Renamed;
 
   public:
@@ -45,8 +41,6 @@ namespace iProlog
 	  std::wstring toString() override;
 	};
 }
-
-//.cpp file code:
 
 namespace iProlog
 {
@@ -107,7 +101,6 @@ namespace iProlog
 
 	std::wstring IntList::toString()
 	{
-//JAVA TO C++ CONVERTER TODO TASK: There is no native C++ equivalent to 'toString':
 	  return toInts(this)->toString();
 	}
 }
