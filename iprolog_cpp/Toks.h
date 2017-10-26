@@ -11,14 +11,10 @@
 namespace iProlog
 {
 
-	/// <summary>
-	/// Reads chars from char streams using the current default encoding
-	/// </summary>
 	class Toks : public StreamTokenizer
 	{
 
-	  // reserved words - with syntactic function
-
+	
   public:
 	  static std::wstring IF;
 	  static std::wstring AND;
