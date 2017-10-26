@@ -3,9 +3,6 @@
 #include <string>
 #include <vector>
 
-/// <summary>
-/// Dynamic Stack for int data.
-/// </summary>
 namespace iProlog
 {
 
@@ -18,9 +15,9 @@ namespace iProlog
 	  int top = 0;
 
   public:
-	  static int SIZE; // power of 2
+	  static int SIZE;
 
-	  static int MINSIZE; // power of 2
+	  static int MINSIZE; 
 
 	  IntStack();
 
@@ -34,11 +31,6 @@ namespace iProlog
 
 	  bool isEmpty();
 
-	  /// <summary>
-	  /// Pushes an element - top is incremented first than the
-	  /// element is assigned. This means top point to the last assigned
-	  /// element - which can be returned with peek().
-	  /// </summary>
 	  void push(int const i);
 
 	  int pop();
@@ -49,15 +41,9 @@ namespace iProlog
 
 	  int size();
 
-	  /// <summary>
-	  /// dynamic array operation: doubles when full
-	  /// </summary>
   private:
 	  void expand();
 
-	  /// <summary>
-	  /// dynamic array operation: shrinks to 1/2 if more than than 3/4 empty
-	  /// </summary>
 	  void shrink();
 
   public:
