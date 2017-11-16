@@ -61,9 +61,9 @@ notpalindrome++;
 
     }
   
-	System.out.println("The count of palindromes inn the list is :"+palindrome);
+	System.out.println("The count of palindromes  is :"+palindrome);
 	
-System.out.println("The count of palindromes inn the list is :"+notpalindrome); 
+System.out.println("The count of palindromes is :"+notpalindrome); 
   
  
    }
