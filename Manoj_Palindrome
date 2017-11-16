@@ -1,64 +1,41 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
 import java.util.*;
 import java.io.*;
+class Palindrome
+{
+   public static void main(String args[]) throws IOException
+   {
+      String original, reverse = "";
+	int p=0,np=0;
+	
+  BufferedReader br = new BufferedReader(new FileReader("words.txt"));
+    String line;
+    while ((line = br.readLine()) != null) {
 
-public class Exam_se {
-
-    public static void main(String[]args)throws IOException {
-
-    Scanner in = new Scanner(new FileReader("words.txt"));
-
-    PrintWriter out = new PrintWriter(new FileWriter("palindromes.txt"));
-
-    String[] phrase = new String[100];
-
-    String []palindromes = new String[50];
-
-    String p = null;
-
-    String s="END";
-
-    int index = 0;
-	while (phrase[index]!=s){
-
-    p =isPalindrome(phrase);
-
-    }
-
-    out.printf("\nThe palindromes are :%s\n ",p);
-
-    in.close();
-
-    out.close();
-
-    }
-
- public static boolean isPalindrome(String phrase) {
-
-    int left  = 0;
-
-    int right = phrase.length() -1;
-
+        original = line;
  
-
-    while (left < right) {
-
-        if (phrase.length() != phrase.length()) {
-
-            return false;
-
-        }
-
-        left++;
-
-        right--;
-
-    }
-
+      int length = original.length();
  
-
-    return true;
-
-}
-
-
+      for ( int i = length - 1; i >= 0; i-- )
+         reverse = reverse + original.charAt(i);
+ 
+      if (original.equals(reverse))
+	{
+	p++;
+         System.out.println("The string  : "+original+"	: is a palindrome.");
+	}
+      else
+	{
+         
+	np++;
+	}
+    }  
+	System.out.println("The count of palindromes  :"+p);
+	System.out.println("The count of palindromes  :"+np);   
+ 
+   }
 }
