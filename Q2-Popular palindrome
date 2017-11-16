@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 public class palindromeTest {
     public static void main(String[]args)throws IOException {
-    Scanner in = new Scanner(new FileReader("words.txt"));
+    Scanner in = new Scanner(new FileReader("palindromewords.txt"));
     PrintWriter out = new PrintWriter(new FileWriter("palindromes.txt"));
     String []phrase = new String[100];
     String []palindromes = new String[50];
