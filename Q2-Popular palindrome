@@ -1,28 +1,34 @@
-#include <iostream>
-using namespace std;
-
-int main(){
-    char string0[20];
-    int i, length;
-    int flag = 0;
-    
-    cout << "Enter  string: "; cin >> string0;
-    
-    length = strlen(string0);
-    
-    for(i=0;i < length ;i++){
-        if(string0[i] != string0[length-i-1]){
-            flag = 1;
-            break;
-	   }
-	}
-    
-    if (flag) {
-        cout << string0 << " is not a palindrome word" << endl; 
-    }    
-    else {
-        cout << string0 << " is a palindrome word" << endl; 
+import java.util.*;
+import java.io.*;
+public class palindromeTest {
+    public static void main(String[]args)throws IOException {
+    Scanner in = new Scanner(new FileReader("words.txt"));
+    PrintWriter out = new PrintWriter(new FileWriter("palindromes.txt"));
+    String []phrase = new String[100];
+    String []palindromes = new String[50];
+    String p;
+    String s="END";
+    while (phrase!=s){
+    p =isPalindrome(phrase);
     }
-    system("pause");
-    return 0;
+    out.printf("\nThe palindromes are :%s\n ",p);
+    in.close();
+    out.close();
+    }
+ public static boolean isPalindrome(String phrase) {
+    int left  = 0;
+    int right = phrase.length() -1;
+
+    while (left < right) {
+        if (phrase.charAt(left) != phrase.charAt(right)) {
+            return false;
+        }
+        left++;
+        right--;
+    }
+    return true;
 }
+
+}
+
+
