@@ -30,8 +30,7 @@ class Palindrome
 	}
       else
 	{
-         //System.out.println("The string -----"+original+"-----is not a palindrome.");
-	notpalindrome++;
+       	notpalindrome++;
 	}
     }  
 	System.out.println("The count of palindromes inn the list is :"+palindrome);
