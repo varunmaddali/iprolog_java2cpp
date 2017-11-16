@@ -1,34 +1,71 @@
+import java.io.BufferedReader;
+
+import java.io.File;
+
+import java.io.FileReader;
+
+import java.io.IOException;
+
+
 import java.util.*;
+
 import java.io.*;
-public class palindromeTest {
-    public static void main(String[]args)throws IOException {
-    Scanner in = new Scanner(new FileReader("palindromewords.txt"));
-    PrintWriter out = new PrintWriter(new FileWriter("palindromes.txt"));
-    String []phrase = new String[100];
-    String []palindromes = new String[50];
-    String m;
-    String s="END";
-    while (phrase!=s){
-    m =isPalindrome(phrase);
-    }
-    out.printf("\nPalindromes are :%s\n ",m);
-    in.close();
-    out.close();
-    }
- public static boolean isPalindrome(String phrase) {
-    int left  = 0;
-    int right = phrase.length() -1;
 
-    while (left < right) {
-        if (phrase.charAt(left) != phrase.charAt(right)) {
-            return false;
-        }
-        left++;
-        right--;
+class Palindrome
+{
+ 
+  public static void main(String args[]) throws IOException
+ 
+  {
+  
+    String orig, opp = "";
+
+	int palindrome=0,notpalindrome=0;
+
+	
+  BufferedReader br = new BufferedReader(new FileReader("common1000_words.txt"));
+
+    String line;
+
+    while ((line = br.readLine()) != null) {
+
+
+        orig = line;
+
+ 
+      int length = orig.length();
+
+ 
+      for ( int i = length - 1; i >= 0; i-- )
+     
+    opp = opp + orig.charAt(i);
+
+ 
+      if (orig.equals(opp))
+	{
+
+	palindrome++;
+ 
+        System.out.println("The string "+orig+" is a palindrome word.");
+
+	}
+      
+else
+	{
+
+         //System.out.println("The string "+orig+" is not a palindrome word.");
+	
+notpalindrome++;
+
+	}
+
     }
-    return true;
+  
+	System.out.println("The count of palindromes inn the list is :"+palindrome);
+	
+System.out.println("The count of palindromes inn the list is :"+notpalindrome); 
+  
+ 
+   }
+
 }
-
-}
-
-
