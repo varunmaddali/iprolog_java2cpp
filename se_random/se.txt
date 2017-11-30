@@ -1,0 +1,58 @@
+as suggested in the class we have used the wikipedia page given random generator and then for the seed for each file we have generated random numbers and then tested the functinality in both c++ files and java and the following is the flow to execute the files and the results are also attached below.
+
+
+reference: https://en.wikipedia.org/wiki/Random_number_generation.
+
+random function : X_{n+1} = (a X_n + b){mod}m
+
+
+
+execution:
+
+vm0241@cse01:~/se_last$ g++ Clause.cpp
+vm0241@cse01:~/se_last$ ./a.out
+the values are len65
+the values are neck45
+the values are base50
+70 80 55 75 25
+70 80 55 75 25 vm0241@cse01:~/se_last$ javac Clause.java
+vm0241@cse01:~/se_last$ java Clause
+the values are len:65
+the values are base:50
+the values are neck:45
+70
+80
+55
+75
+25
+
+70
+80
+55
+75
+25
+vm0241@cse01:~/se_last$ g++ IntStack.cpp
+IntStack.cpp:10:11: warning: non-static data member initializers only available                                                                                         with -std=c++11 or -std=gnu++11
+  int SIZE=16;
+           ^
+IntStack.cpp:11:25: warning: non-static data member initializers only available                                                                                         with -std=c++11 or -std=gnu++11
+  int minsize =1<<(SIZE-1);
+                         ^
+vm0241@cse01:~/se_last$ ./a.out
+75
+vm0241@cse01:~/se_last$ javac IntStack.java
+vm0241@cse01:~/se_last$ java IntStack
+75
+vm0241@cse01:~/se_last$ g++ ObStack.cpp
+vm0241@cse01:~/se_last$ ./a.out
+70
+80
+vm0241@cse01:~/se_last$ javac ObStack.java
+Note: ObStack.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+vm0241@cse01:~/se_last$ java ObStack
+70
+80
+vm0241@cse01:~/se_last$
+
+
