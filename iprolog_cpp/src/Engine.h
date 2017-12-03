@@ -1,12 +1,10 @@
 #ifndef __ENGINE_H__
 #define __ENGINE_H__
-
-
+//including the libraries
 #include <string>
 #include <vector>
 #include <map>
-
-
+//including the dependencies
 #include "Clause.h"
 #include "IntStack.h"
 #include "ObStack.h"
