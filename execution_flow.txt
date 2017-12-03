@@ -1,0 +1,9 @@
+Execution_flow:
+
+Download the iprolog_cpp folder to the machine and then follow one of the ways of execution to make use of this prolog compiler in c++ platform.
+
+Ways of execution:
+
+1)In commandprompt go to this directory where the folder is located and then just type make.
+
+2)

@@ -1,0 +1,4 @@
+DOCUMENTATION:
+
+This is a prolog compiler designed in c++ from the java version designed by Paul Tarau which is named as "iprolog".
+
