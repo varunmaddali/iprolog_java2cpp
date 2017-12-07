@@ -10,13 +10,13 @@ template<typename T>
 	//  static long serialVersionUID = 1LL;
 
   public:
-	  T pop()
+	  T pop() //removing elements from the stack
 	  {
 		int last = this->size() - 1;
 		return this->remove(last);
 	  }
 
-	  void push(T const O)
+	  void push(T const O) //inserting elements from the stack
 	  {
 		this->push_back(O);
 	  }
@@ -29,11 +29,11 @@ template<typename T>
 
 int main()
 {
-ObStack <int>o;
-o.push(5);
-std::cout<<o.peek()<<std::endl;
-o.push(6);
-std::cout<<o.peek()<<std::endl;
+ObStack <int>o; //defining a variable of obstack of type integer
+o.push(5); //inserting values
+std::cout<<o.peek()<<std::endl; //displaying
+o.push(6); //inserting values
+std::cout<<o.peek()<<std::endl; //displaying
 }
 
 
