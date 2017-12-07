@@ -6,14 +6,14 @@
 class IntStack
 {
 public:
-	IntStack();
-	IntStack(const int size);
-	~IntStack();
-
-	int getTop();
+	IntStack(); //contructor
+	IntStack(const int size); //constructor
+	~IntStack(); // destructor
+//function declarations
+	int getTop(); 
 	void clear();
 	bool isEmpty();
-
+// function to inserting into stack
    void push(const int i)
    {
 //      if (++top >= stacklen)
@@ -42,7 +42,7 @@ public:
 
 private:
 //   int setTop(const int top);
-   void expand()
+   void expand() // doubling the size of stack when memory is insufficient
    {/*
       const int l = stacklen;
       int* newstack = new int[l << 1];
@@ -53,7 +53,7 @@ private:
       stacklen = l << 1;
    */
    }
-
+//reducing the size of stack by 2 when there is more space
    void shrink()
    {
       /*
