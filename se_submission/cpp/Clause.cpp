@@ -5,7 +5,7 @@ using namespace std;
 class Clause
 {
   public:
-Clause(int const len, std::vector<int> *hgs, int const base, int const neck, std::vector<int> *xs);
+Clause(int const len, std::vector<int> *hgs, int const base, int const neck, std::vector<int> *xs); //constructor declaration
 
 	  int len;
 
@@ -13,7 +13,7 @@ Clause(int const len, std::vector<int> *hgs, int const base, int const neck, std
 	   int base;
 	   int neck;
 	  std::vector<int> xs;
-void print_values()
+void print_values() //displaying or testing
 {
 cout<<"the values are len"<<len<<endl;
 cout<<"the values are neck"<<neck<<endl;
@@ -38,7 +38,7 @@ System.out.println("the values are xs:"+xs[i]);
 }
 };
 
-Clause::Clause(int const len,vector<int> *hgs, int const base, int const neck, vector<int> *xs) 
+Clause::Clause(int const len,vector<int> *hgs, int const base, int const neck, vector<int> *xs) //defining constructor
 {
 this->len=len;
 this->base=base;
