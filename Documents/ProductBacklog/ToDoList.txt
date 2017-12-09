@@ -21,7 +21,7 @@ SE-class project To-do list
 
 10.	Execute add.pl,big.pl,lambdas.pl,mperms.pl,perms.pl,queens.pl,sud4x.pl and check the output which are useful later for comparison.
 
-11.	Understand the implementation of given java program Clause.java
+11.	Understand the implementation of given java program Clause.java		
 
 12.	Understand the implementation of given java program  Engine.java
 
@@ -31,17 +31,17 @@ SE-class project To-do list
 
 15.	Understand the implementation of given java program  IntMap.java
 
-16.	Understand the implementation of given java program IntStack.java
+16.	Understand the implementation of given java program IntStack.java	
 
 17.	Understand the implementation of given java program  Main.java
 
-18.	Understand the implementation of given java program  Obstack.java
+18.	Understand the implementation of given java program  Obstack.java	
 
 19.	Understand the implementation of given java program  Prog.java
 
 20.	Understand the implementation of given java program  Spine.java
 
-21.	Understand the implementation of given java program  Toks.java
+21.	Understand the implementation of given java program  Toks.java		
 
 22.	Implement the java program Clause.java to either C or C++ program depending on the language chosen. 
 
