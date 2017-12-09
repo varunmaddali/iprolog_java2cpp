@@ -1,0 +1,122 @@
+
+SE-class project To-do list
+
+
+**********************************completed during sprint 1 and sprint 2********************************************
+
+1.	Understand the overall project.
+
+2.	Read and understand the research paper provided.
+
+3.	Understand the dependencies of the project file.
+
+4.	Plan for necessary setup.
+
+5.	Planning to choose the right environment.
+
+6.	Change the product backlog after finding the dependencies.
+
+7.	Understand the working of all Java files.
+
+8.	Understand the working of compiler dependencies files.
+
+9.	Compile all the java programs for the prolog Machine.
+
+10.	Execute add.pl,big.pl,lambdas.pl,mperms.pl,perms.pl,queens.pl,sud4x.pl and check the output which are useful later for comparison.
+
+11.	Understand the implementation of given java program Clause.java		
+	
+12	Understand the implementation of given java program  Obstack.java	
+
+13.	Understand the implementation of given java program  Toks.java		
+
+14.	Understand the implementation of given java program IntStack.java	
+
+15.	Implement the java program Clause.java in C++ . 			
+
+16.	Implement the java program Toks.java in C++ .				
+	
+17.	Implement the java program IntStack.java in C++ .			
+
+18.	Implement the java program Obstack.java in C++ .			
+
+19.	Perform testing for the Clause.CPP file.				
+
+**********************************************************************************************************************
+
+20.	Understand the implementation of given java program  Imap.java		-priority High
+
+21.	Understand the implementation of given java program  Intlist.java	-priority High
+
+22.	Understand the implementation of given java program  IntMap.java	-priority Medium
+
+23.	Understand the implementation of given java program  Main.java		-priority Low
+
+24.	Understand the implementation of given java program  Engine.java	-priority Low
+
+25.	Understand the implementation of given java program  Prog.java		-priority High
+
+26.	Understand the implementation of given java program  Spine.java		-priority Medium
+	
+27.	Implement the java program Engine.java in C++ .				-priority Low
+
+28.	Implement the java program Imap.java in C++ . 				-priority High
+
+29.	Implement the java program Intlist.java in C++ .			-priority High
+
+30.	Implement the java program IntMap.java in C++ .				-priority Medium
+	
+31.	Implement the java program Main.java in C++ .				-priority Low
+	
+32.	Implement the java program Prog.java in C++ .				-priority High
+
+33.	Implement the java program Spine.java in C++ 				-priority Medium
+				
+34.	Perform testing for the Engine.CPP file					-priority Low
+
+35.	Perform testing for the Imap.CPP file					-priority Medium
+
+36.	Perform testing for the Intlist.CPP file				-priority Medium
+
+37.	Perform testing for the IntMap.CPP file					-priority Medium
+
+38.	Perform testing for the IntStack.CPP file				-priority High
+
+39.	Perform testing for the Main.CPP file					-priority Low
+
+40.	Perform testing for the Obstack.CPP file				-priority High
+
+41.	Perform testing for the prog.CPP file					-priority High
+
+42.	Perform testing for the Spine.CPP file					-priority Medium
+
+43.	Perform testing for the Toks.CPP file					-priority High
+
+44.	Test the C++ compiler by combining all the C++ code.			-priority Low
+
+45.	Execute add.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+46.	Execute big.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+47.	Execute lambdas.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+48.	Execute mperms.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+49.	Execute perms.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+50.	Execute queens.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+51.	Execute sud4X.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+
+
+
+
+
+
+
+
+
+
+
+
