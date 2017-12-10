@@ -9,3 +9,4 @@ mkdir "$TARGET"
 rm -r -f $TARGET/iProlog
 rm -f progs/*.pl.nl
 #to be continued.
+g++ -std=c++11 -O3 -o cProlog Clause.cpp main.cpp Engine.cpp Prog.cpp IntList.cpp IntMap.cpp IntStack.cpp Spine.cpp Toks.cpp
