@@ -298,7 +298,7 @@ int main(int argc, char** argv)
       return 0;
    }
 	run(argv[1]);
-
+//un comment this below lines for relevant unit testing.
 //   testToks();
 //   testIntStack();
 //   testIntList();
