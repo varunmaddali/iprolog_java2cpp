@@ -1,0 +1,29 @@
+Sprint 4 details
+
+Dates: November 10  – November 30 
+
+Length: 20 days
+
+The largest java file will 1000 lines of code named Engine.java was understood by spending lot of energy and time on it.
+
+
+The java program Main.java, IntMap.java are analysed and converted into C++.
+
+The java program Engine.java was very messy and took lot of time to understand it.
+
+The Engine.java is not very hard to convert but has very logical segements which need deep analysis.  
+
+The team performed testing on Engine.CPP and found out many errors and logical issues.
+
+The Engine.CPP had core memory management issues.
+
+The errors were foundout ands needs to be fixed in next sprint.
+
+Unit testing was performed on Spine.CPP, IMap.CPP, IntMap.CPP, .
+
+Same Unit tests were performed on Spine.java, IntMap.java,Imap.java to verify the correctness by comparing.
+
+Some Random testing was also performed on the files.
+
+
+
