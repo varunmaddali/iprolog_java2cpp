@@ -6,4 +6,4 @@ Ways of execution:
 
 1)In commandprompt go to this directory where the folder is located and then just type make.
 
-2)
+2)The other way is to execute all the c++ files and also convert each .pl file to .pl.nl file using the pl2nl.pl pl file and giving as input to the compiled classes.
