@@ -1,0 +1,29 @@
+
+Sprint 3 details
+
+Dates:  October 21 - November 10
+
+Length: 20 days
+
+
+The java programs Imap.java ,Intlist.java and Prog.java were reviewed line by line and got an overall good understanding of the programs.
+
+The java program Intlist.java, IntMap.java are just for integers handling.
+
+The java programs Obstack.java reviewed and was easy to Understand.
+
+The java programs Imap.java ,Intlist.java , Obstack.java and Prog.java were implemented in C++ and compiled.
+
+The team performed testing on Toks.CPP and found out some errors.
+
+The errors foundout needs to be fixed in next sprint.
+
+Unit testing was performed on IntStack.CPP, IntList.CPP, Prog.CPP, Obstack.CPP.
+
+Same Unit tests were performed on IntStack.java, Prog.java, Obstack.java to verify the correctness by comparing.
+
+The team performed testing on IntList.CPP and found out some errors.
+
+
+
+
