@@ -1,0 +1,22 @@
+Sprint1 details
+
+Dates: September 10 to September 30 
+
+Length:20 days
+
+
+The members of the team had worked together to select the items from the backlog at the starting of the sprint.
+
+The team will work on the selected items during the sprint by creating a sprint backlog. 
+
+During the sprint the product owner explains the overall project and the team tried to understand the project deeply by looking at the research paper provided. 
+
+The research paper helped the team to understand the dependencies files which helped in executing the prolog files with the given compiler.
+
+The team has planned on choosing the right environment setup and decided to use visual studio and CSCE servers for the projects.
+
+The team also chose the preferred language to be C++ which is best suited in the given constraints.
+
+The java files dependencies are found out so that we can start prioritizing the conversion to C++ file.
+
+The basic working of all the java files has been found out by the end of this sprint. 

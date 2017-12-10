@@ -1,0 +1,22 @@
+*********************Sprint1 backlog**************************
+
+1.	Understand the overall project.
+
+2.	Read and understand the research paper provided.
+
+3.	Understand the dependencies of the project file.
+
+4.	Plan for necessary setup.
+
+5.	Planning to choose the right environment.
+
+6.	Change the product backlog after finding the dependencies.
+
+7.	Understand the working of all Java files.
+
+8.	Understand the working of compiler dependencies files.
+
+9.	Compile all the java programs for the prolog Machine.
+
+10.	Execute add.pl,big.pl,lambdas.pl,mperms.pl,perms.pl,queens.p,sud4x.pl and check the output which are useful later for comparison.
+
