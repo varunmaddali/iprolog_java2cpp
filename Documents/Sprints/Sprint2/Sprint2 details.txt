@@ -1,0 +1,27 @@
+Sprint 2 details
+
+Dates: October 1 – October 20 
+
+Length: 20 days
+
+
+The prolog programs add.pl, big.pl , lambdas.pl ,mperms.pl ,perms.pl ,queens.pl ,sud4x.pl  are executed.
+
+The outputs of these programs are noted so that they can be compared with the C++ compiler outputs so that it can be verified for the correctness.
+
+The java program Toks.java was very messy and took lot of time to understand it.
+
+The java programs clause.java ,obstack.java and Intstack.java were reviewed line by line and got an overall good understanding of the programs.
+
+The java programs clause.java ,obstack.java and Intstack.java were implemented in C++ and compiled them.
+
+The java program Toks.java has been implemented in C++ and compiled.
+
+The team started its first iteration of testing on Clause.CPP file.
+
+The team performed unit tests on both Clause.java and Clause.CPP to verify the correctness.
+
+
+
+
+
