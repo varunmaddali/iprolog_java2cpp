@@ -1,0 +1,44 @@
+
+*********************Sprint1 review**************************
+
+#########################completed###########################
+
+1.	Understood the overall project.
+
+2.	Read and understood the research paper provided.
+
+3.	Understood the dependencies of the project file.
+
+4.	Necessary setup and been planed and implemented.
+
+5.	Right environment has been chosen.
+
+6.	The has been updated backlog after finding the dependencies.
+
+7.	Understood the working of all Java files.
+
+8.	Understood the working of compiler dependencies files.
+
+9.	Compile all the java programs for the prolog Machine.
+
+
+#########################incomplete###########################
+
+10.	Execute add.pl,big.pl,lambdas.pl,mperms.pl,perms.pl,queens.p,sud4x.pl and check the output which are useful later for comparison.
+
+##############################################################
+
+
+**********************Sprint Retrospective*******************
+
+
+1.	What went well during the sprint?
+	
+	Every thing was perfect. But missed one task.
+
+
+2.	What could be improved in the next sprint?
+
+	Accurately choose the tasks which can be completed.
+
+
