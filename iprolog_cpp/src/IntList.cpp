@@ -1,106 +1,62 @@
-#include <string>
-#include <vector>
+#include "IntList.h"
 
-namespace iProlog
+
+
+
+IntList::IntList(const int head)
+	:	head_(head), tail_(nullptr)
 {
-	class IntList
-	{
-
-  private:
-	  const int head_Renamed;
-	  IntList *const tail_Renamed;
-
-  public:
-	  virtual ~IntList()
-	  {
-		  delete tail;
-	  }
-
-  private:
-	  IntList(int const head);
-
-	  IntList(int const X, IntList *const Xs);
-
-  public:
-	  static bool isEmpty(IntList *const Xs);
-
-	  static int head(IntList *const Xs);
-
-	  static constexpr IntList *empty = nullptr;
-
-	  static IntList *tail(IntList *const Xs);
-
-	  static IntList *cons(int const X, IntList *const Xs);
-
-	  static IntList *app(std::vector<int> &xs, IntList *const Ys);
-
-	  static IntStack *toInts(IntList *Xs);
-
-	  static int len(IntList *const Xs);
-
-	  std::wstring toString() override;
-	};
 }
 
-namespace iProlog
+IntList::IntList(const int head, IntList* tail)
+	: head_(head), tail_(tail)
 {
+}
 
-	IntList::IntList(int const head) : head(head), tail(nullptr)
-	{
-	}
+IntList::~IntList()
+{
+}
 
-	IntList::IntList(int const X, IntList *const Xs) : head(X), tail(Xs)
-	{
-	}
+bool IntList::isEmpty(const IntList * Xs)
+{
+	return Xs == nullptr;
+}
 
-	bool IntList::isEmpty(IntList *const Xs)
-	{
-	  return nullptr == Xs;
-	}
+int IntList::head(const IntList * Xs)
+{
+	return Xs->head_;
+}
 
-	int IntList::head(IntList *const Xs)
-	{
-	  return Xs->head_Renamed;
-	}
+IntList * IntList::tail(const IntList * Xs)
+{
+	return Xs->tail_;
+}
 
-	IntList *IntList::tail(IntList *const Xs)
-	{
-	  return Xs->tail_Renamed;
-	}
+IntList * IntList::cons(const int head, IntList * tail)
+{
+	return new IntList(head, tail);
+}
 
-	IntList *IntList::cons(int const X, IntList *const Xs)
-	{
-	  return new IntList(X, Xs);
-	}
-
-	IntList *IntList::app(std::vector<int> &xs, IntList *const Ys)
-	{
-	  IntList *Zs = Ys;
-	  for (int i = xs.size() - 1; i >= 0; i--)
-	  {
+IntList * IntList::app(const std::vector<int>& xs, IntList * Ys)
+{
+	IntList* Zs = Ys;
+	for (int i = (int)xs.size() - 1; i >= 0; i--) {
 		Zs = cons(xs[i], Zs);
-	  }
-	  return Zs;
 	}
+	return Zs;
+}
 
-	IntStack *IntList::toInts(IntList *Xs)
-	{
-	  IntStack * const is = new IntStack();
-	  while (!isEmpty(Xs))
-	  {
-		is->push(head(Xs));
+IntStack IntList::toInts(IntList * Xs)
+{
+	IntStack is;
+	while (!isEmpty(Xs)) {
+		is.push(head(Xs));
 		Xs = tail(Xs);
-	  }
-	  return is;
 	}
+	return is;
+}
 
-	int IntList::len(IntList *const Xs)
-	{
-	  return toInts(Xs)->size();
-	}
-
-	std::wstring IntList::toString()
-	{
-	  return toInts(this)->toString();
-	}
+int IntList::len(IntList * Xs)
+{
+	return toInts(Xs).size();
 }
