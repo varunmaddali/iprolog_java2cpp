@@ -1,6 +1,5 @@
 #include "Clause.h"
-
-
+//declaration of the clause constructor
 
 Clause::Clause::Clause(const int len, const std::vector<int>& hgs, const int base, const int neck, const std::vector<int>& xs)
 	: hgs(hgs), base(base), len(len), neck(neck), xs(xs)
