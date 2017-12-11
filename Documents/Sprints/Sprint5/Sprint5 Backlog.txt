@@ -1,0 +1,21 @@
+
+*********************Sprint 5 backlog**************************
+
+1.	Resolve memory management issues in Engine.CPP		
+
+2. 	Resolve the logical bugs found in sprint 3 and 4.				
+
+3. 	Perform testing again after fixing the issues.			
+	
+4.	Execute add.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+5.	Execute big.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.	
+
+6.	Execute lambdas.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.	
+7.	Execute mperms.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
+
+8.	Execute perms.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.	
+
+9.	Execute queens.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.	
+
+10.	Execute sud4X.pl prolog program with C++ compiler and compare it with the java compiler output to verify the correctness.
